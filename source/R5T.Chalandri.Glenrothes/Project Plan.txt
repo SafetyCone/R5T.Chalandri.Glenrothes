@@ -1,0 +1,4 @@
+R5T.Chalandri.Glenrothes - A Glenrothes-based (testing data directory path) implmentation of the ITestingDataDirectoryPathsProvider service for the Chalandri project.
+
+Goals
+
