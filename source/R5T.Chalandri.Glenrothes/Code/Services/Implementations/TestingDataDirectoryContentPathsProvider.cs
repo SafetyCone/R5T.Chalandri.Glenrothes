@@ -24,14 +24,28 @@ namespace R5T.Chalandri.Glenrothes
             this.StringlyTypedPathOperator = stringlyTypedPathOperator;
         }
 
-        public string GetBasicTextFilePath()
+        private string GetFilePath(string fileName)
         {
             var testingDataDirectoryPath = this.TestingDataDirectoryPathProvider.GetTestingDataDirectoryPath();
 
+            var filePath = this.StringlyTypedPathOperator.GetFilePath(testingDataDirectoryPath, fileName);
+            return filePath;
+        }
+
+        public string GetBasicTextFilePath()
+        {
             var basicTextFileName = this.TestingDataDirectoryContentConventions.BasicTextFileName;
 
-            var basicTextFilePath = this.StringlyTypedPathOperator.GetFilePath(testingDataDirectoryPath, basicTextFileName);
+            var basicTextFilePath = this.GetFilePath(basicTextFileName);
             return basicTextFilePath;
+        }
+
+        public string GetExampleVisualStudioSolutionFilePath()
+        {
+            var exampleVisualStudioSolutionFileName = this.TestingDataDirectoryContentConventions.ExampleVisualStudioSolutionFileName;
+
+            var exampleVisualStudioSolutionFilePath = this.GetFilePath(exampleVisualStudioSolutionFileName);
+            return exampleVisualStudioSolutionFilePath;
         }
     }
 }
