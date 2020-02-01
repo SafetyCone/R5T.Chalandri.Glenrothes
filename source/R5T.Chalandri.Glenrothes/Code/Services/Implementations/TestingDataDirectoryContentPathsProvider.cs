@@ -47,5 +47,13 @@ namespace R5T.Chalandri.Glenrothes
             var exampleVisualStudioSolutionFilePath = this.GetFilePath(exampleVisualStudioSolutionFileName);
             return exampleVisualStudioSolutionFilePath;
         }
+
+        public string GetNewVisualStudio2017SolutionFilePath()
+        {
+            var newVisualStudio2017SolutionFileName = this.TestingDataDirectoryContentConventions.NewVisualStudio2017SolutionFileName;
+
+            var exampleVisualStudioSolutionFilePath = this.GetFilePath(newVisualStudio2017SolutionFileName);
+            return exampleVisualStudioSolutionFilePath;
+        }
     }
 }
