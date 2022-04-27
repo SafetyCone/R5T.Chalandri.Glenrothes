@@ -1,13 +1,13 @@
-﻿using System;
+using System;
 
 using R5T.Glenrothes;
 using R5T.Ilioupoli;
-using R5T.Lombardy;
+using R5T.Lombardy;using R5T.T0064;
 
 
 namespace R5T.Chalandri.Glenrothes
-{
-    public class TestingDataDirectoryContentPathsProvider : ITestingDataDirectoryContentPathsProvider
+{[ServiceImplementationMarker]
+    public class TestingDataDirectoryContentPathsProvider : ITestingDataDirectoryContentPathsProvider,IServiceImplementation
     {
         private ITestingDataDirectoryPathProvider TestingDataDirectoryPathProvider { get; }
         private ITestingDataDirectoryContentConventions TestingDataDirectoryContentConventions { get; }

@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Chalandri.Glenrothes.Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Chalandri.Glenrothes.Testing", "R5T.Chalandri.Glenrothes.Testing\R5T.Chalandri.Glenrothes.Testing.csproj", "{06F1C8E5-31C8-443C-8683-9F8EBA1C814A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{A03A564C-117E-43D8-8F69-CF05AF5A1DCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{DC418BE8-2421-4F59-9B93-8FFE79084495}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,5 +62,20 @@ Global
 		{06F1C8E5-31C8-443C-8683-9F8EBA1C814A}.Release|x64.Build.0 = Release|Any CPU
 		{06F1C8E5-31C8-443C-8683-9F8EBA1C814A}.Release|x86.ActiveCfg = Release|Any CPU
 		{06F1C8E5-31C8-443C-8683-9F8EBA1C814A}.Release|x86.Build.0 = Release|Any CPU
+		{DC418BE8-2421-4F59-9B93-8FFE79084495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC418BE8-2421-4F59-9B93-8FFE79084495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC418BE8-2421-4F59-9B93-8FFE79084495}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{DC418BE8-2421-4F59-9B93-8FFE79084495}.Debug|x64.Build.0 = Debug|Any CPU
+		{DC418BE8-2421-4F59-9B93-8FFE79084495}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DC418BE8-2421-4F59-9B93-8FFE79084495}.Debug|x86.Build.0 = Debug|Any CPU
+		{DC418BE8-2421-4F59-9B93-8FFE79084495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC418BE8-2421-4F59-9B93-8FFE79084495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC418BE8-2421-4F59-9B93-8FFE79084495}.Release|x64.ActiveCfg = Release|Any CPU
+		{DC418BE8-2421-4F59-9B93-8FFE79084495}.Release|x64.Build.0 = Release|Any CPU
+		{DC418BE8-2421-4F59-9B93-8FFE79084495}.Release|x86.ActiveCfg = Release|Any CPU
+		{DC418BE8-2421-4F59-9B93-8FFE79084495}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DC418BE8-2421-4F59-9B93-8FFE79084495} = {A03A564C-117E-43D8-8F69-CF05AF5A1DCE}
 	EndGlobalSection
 EndGlobal
